@@ -40,3 +40,6 @@ It is the same as
 `cat pipe.go | grep func | awk '{print $3}' | grep string`
 
 
+current, the code will output:
+
+`string,`

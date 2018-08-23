@@ -1,10 +1,10 @@
-package cmd
+package pipe
 
 import (
-	"os/exec"
-	"io"
 	"bytes"
 	"fmt"
+	"io"
+	"os/exec"
 )
 
 type pipeData struct {
